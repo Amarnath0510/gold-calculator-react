@@ -1,0 +1,27 @@
+.golds-container {
+  width: min-content;
+  height: min-content;
+  display: flex;
+  flex-wrap:wrap;
+  gap:20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  cursor: pointer;
+  
+}
+.details-container{
+    
+
+
+    background-color:grey;
+    
+}
+.details-container :hover{
+    transform: scale(1.1);
+}
+.img-container{
+    height:300px;
+    width: 300px;
+    object-fit: cover;
+    
+}
