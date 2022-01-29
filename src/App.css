@@ -40,6 +40,46 @@
 .body{
 
   background-color: whitesmoke;
+  
 
 }
 
+.nav1{
+  font-size: 32px;
+  display: flex;
+  gap:12px;
+}
+.welcome{
+  background-color:beige;
+  width: 700px;
+  height: 250px;
+  margin-left: 400px;
+  padding: 20px;
+  margin-top: 50px;
+}
+.welcome1{
+  color:steelblue;
+}
+.welcome2{
+  color:tomato;
+}
+.not-found{
+ height: 600px; 
+ width: 700px;
+
+}
+.not-found1{
+  color: crimson;
+}
+/* .not-found-total{
+background-color: crimson;
+color:cyan;
+border-top:firebrick;
+border-radius: 100px;
+font-weight: bold;
+font-family: monospace;
+justify-content: center;
+align-content: center;
+align-items: baseline;
+background-color:black;
+} */

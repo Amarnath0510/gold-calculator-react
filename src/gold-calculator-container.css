@@ -1,0 +1,29 @@
+.gold-calculator-container{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 400px;
+    padding: 20px;
+ background-color:beige;
+    width:800px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+.title{
+    color:cornflowerblue;
+    margin-left:200px;  
+}
+.price{
+    margin-left: 250px;
+    color:cornflowerblue;
+    font-weight: bold;
+}
+.form1{
+    margin-left: 104px;
+   margin-top: 40px;
+    color:darksalmon
+}
+.label1{
+color: darkviolet;
+}
