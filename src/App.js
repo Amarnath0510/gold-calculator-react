@@ -6,11 +6,8 @@ import GoldCalculator from "./GoldCalculator.js";
 import Home from "./Home.js";
 import NotFound from "./NotFound.js";
 import AppBar from "@mui/material/AppBar";
-
 import Toolbar from "@mui/material/Toolbar";
-
 import Button from "@mui/material/Button";
-
 import { useState } from "react";
 import { Switch, Route } from "react-router-dom";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
@@ -18,6 +15,7 @@ function App() {
   const [selected, setSelected] = useState(
     "Choose any one below to know 1gram gold price today"
   );
+  
   const history = useHistory("");
 
   return (
@@ -67,7 +65,7 @@ function App() {
           <Home />
         </Route>
         <Route path="/golds">
-          <Golds />
+          <Golds  />
         </Route>
         <Route path="/gold-calculator">
           <GoldCalculator />
