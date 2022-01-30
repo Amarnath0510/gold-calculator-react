@@ -108,8 +108,8 @@ function Golds() {
     <div className="Golds">
       <Card className="golds-list-container ">
         <CardContent />
-        {golds.map((gold, index) => (
-          <div key={index} className="gold-container">
+        {golds.map((gold, _id) => (
+          <div key={_id} className="gold-container">
             <img className="img-container" src={gold.picture} alt={gold.name} />
             <h2 className="gold.name">{gold.name}</h2>
             <h3>{gold.weight}</h3>
